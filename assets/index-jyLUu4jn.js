@@ -12158,7 +12158,7 @@ const wv = () =>
     }),
   Wv = () =>
     z.jsx("div", {
-      className: `bg-[url('/assets/images/bg.jpg')] w-full h-screen\r
+      className: `bg-[url('../assets/images/bg.jpg')] w-full h-screen\r
      bg-start bg-cover flex items-center justify-center`,
       children: z.jsx("h1", {
         className: "text-5xl font-extrabold text-white",
