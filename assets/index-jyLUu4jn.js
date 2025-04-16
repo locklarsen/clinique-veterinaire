@@ -12184,7 +12184,7 @@ const wv = () =>
         }),
         z.jsx("div", {
           children: z.jsx("img", {
-            src: "./images/capuchin.jpg",
+            src: "../assets/images/capuchin.jpg",
             className: "w-full rounded-lg shadow-md",
           }),
         }),
@@ -12192,25 +12192,25 @@ const wv = () =>
     }),
   kv = () => {
     const S = [
-        { race: "Berger allemand", image: "./images/berger-allemend.jpg" },
-        { race: "Caniches", image: "./images/caniche.jpg" },
-        { race: "Boerboel", image: "./images/boerboel.jpg" },
+        { race: "Berger allemand", image: "../assets/images/berger-allemend.jpg" },
+        { race: "Caniches", image: "../assets/images/caniche.jpg" },
+        { race: "Boerboel", image: "../assets/images/boerboel.jpg" },
         {
           race: "Labrador Retriever",
-          image: "./images/labrador-retriever.jpg",
+          image: "../assets/images/labrador-retriever.jpg",
         },
-        { race: "Rotweiler", image: "./images/rotweiler.jpg" },
+        { race: "Rotweiler", image: "../assets/images/rotweiler.jpg" },
       ],
       U = [
-        { race: "Ragdoll", image: "./images/ragdoll.jpg" },
-        { race: "Bengal", image: "./images/bengal.jpg" },
-        { race: "Persan", image: "./images/persan.jpg" },
-        { race: "Siamois", image: "./images/siamois.jpg" },
-        { race: "Maine-coon", image: "./images/maine-coon.jpg" },
+        { race: "Ragdoll", image: "../assets/images/ragdoll.jpg" },
+        { race: "Bengal", image: "../assets/images/bengal.jpg" },
+        { race: "Persan", image: "../assets/images/persan.jpg" },
+        { race: "Siamois", image: "../assets/images/siamois.jpg" },
+        { race: "Maine-coon", image: "../assets/images/maine-coon.jpg" },
       ],
       M = [
-        { race: "Capucin", image: "./images/capucin.jpg" },
-        { race: "Spider Monkey", image: "./images/spider-monkey.jpg" },
+        { race: "Capucin", image: "../assets/images/capucin.jpg" },
+        { race: "Spider Monkey", image: "../assets/images/spider-monkey.jpg" },
       ];
     return z.jsxs("section", {
       className: "bg-indigo-600 p-8",
